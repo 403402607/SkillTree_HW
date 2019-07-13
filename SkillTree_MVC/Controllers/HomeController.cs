@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SkillTree_MVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,8 +11,23 @@ namespace SkillTree_MVC.Controllers
     {
         public ActionResult Index()
         {
+            List<MoneyModel> MoneyList = new List<MoneyModel>();
+            Random Rnd = new Random();
+            for (int i = 1; i <= 100; i++)
+            {
 
-            return View();
+
+                var result = new MoneyModel()
+                {
+                    SN = i,
+                    type = Rnd.Next(1, 3).ToString(),
+                    date = DateTime.Now.AddDays(Rnd.Next(1000)),
+                    price = Rnd.Next(1, 10000).ToString("#,0"),
+                };
+                MoneyList.Add(result);
+            }
+
+            return View(MoneyList);
         }
 
         public ActionResult About()

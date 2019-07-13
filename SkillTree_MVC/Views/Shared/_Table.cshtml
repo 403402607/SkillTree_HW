@@ -1,0 +1,30 @@
+﻿@model List<SkillTree_MVC.Models.MoneyModel>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>類型</th>
+            <th>日期</th>
+            <th>金額</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tbody>
+            <tr>
+                <td>@item.SN</td>
+               @if (item.type == "1")
+                {
+                <td>支出</td>
+                }
+                @if (item.type == "2")
+                {
+                <td>收入</td>
+                }
+                <td>@item.date.ToString("yyyy/MM/dd")</td>
+                <td>@item.price</td>
+            </tr>
+        </tbody>
+    }
+
+</table>
