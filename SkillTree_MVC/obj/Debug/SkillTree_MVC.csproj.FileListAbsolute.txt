@@ -194,3 +194,8 @@ C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\obj\Debug\SkillTree_MVC.
 C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\obj\Debug\SkillTree_MVC.csproj.CopyComplete
 C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\obj\Debug\SkillTree_MVC.dll
 C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\obj\Debug\SkillTree_MVC.pdb
+C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\bin\EntityFramework.dll
+C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\bin\EntityFramework.xml
+C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\irene\source\repos\SkillTree_git\SkillTree_MVC\bin\zh-Hant\EntityFramework.resources.dll
